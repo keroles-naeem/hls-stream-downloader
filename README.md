@@ -26,9 +26,6 @@ This repository contains a Bash script to automate downloading Arabic and Englis
 4. The script downloads all streams, merges them, and outputs `<your_filename>.mp4`.
 5. Intermediate files are automatically cleaned up after merging.
 
-## License
-
-MIT License
 
 ## Author
 
