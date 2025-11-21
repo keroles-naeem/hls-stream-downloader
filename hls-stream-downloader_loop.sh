@@ -44,7 +44,7 @@ for idx in {1..8}; do
 
   # Cleanup temporary files for each segment
   rm -f "${idx}_Arabic.m4a" "${idx}_English.m4a" \
-        "${idx}_Arabic.vtt" "${idx}_English.vtt"
+        "${idx}_Arabic.vtt" "${idx}_English.vtt" "${idx}.mp4"
 
   echo "Cleanup done. Final segment output: ${idx}_final.mp4"
 
