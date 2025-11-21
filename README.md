@@ -21,5 +21,13 @@ This repository contains a Bash script to automate downloading Arabic and Englis
 ## Usage
 
 1. Place your HLS manifest file (`hls.m3u8`) in the same directory as the script or update the script to point to your manifest location.
-2. Run the script:
+2. Run the script: ./download_hls.sh
+3. When prompted, enter your desired output filename for the merged video.
+4. The script downloads all streams, merges them, and outputs `<your_filename>.mp4`.
+5. Intermediate files are automatically cleaned up after merging.
+
+
+## Author
+
+*Keroles Naeem*
 
